@@ -46,6 +46,8 @@ class SharedVideoDialog extends AbstractSharedVideoDialog<*> {
                 onSubmit = { this._onSubmitValue }
                 textInputProps = {{
                     placeholder: defaultSharedVideoLink
+                    // placeholder: 'youtube.youtubeLink'
+                    // placeholder: 'dialog.youtubeLink'
                 }} />
         );
     }

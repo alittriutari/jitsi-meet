@@ -4,7 +4,9 @@
  * Placeholder for web share video input.
  * @type {string}
  */
-export const defaultSharedVideoLink = 'Youtube link or direct video link';
+// export const defaultSharedVideoLink = 'Youtube link or direct video link';
+export const defaultSharedVideoLink = 'https://youtu.be/TB7LlM4erx8';
+
 
 /**
  * Fixed name of the video player fake participant.

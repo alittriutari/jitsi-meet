@@ -173,6 +173,7 @@
         "testAudio": "Play a test sound"
     },
     "dialog": {
+        "youtubeLink": "youtube link or direct video link",
         "accessibilityLabel": {
             "liveStreaming": "Live Stream"
         },

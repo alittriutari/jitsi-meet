@@ -169,7 +169,8 @@ export function _mapStateToProps(state: Object) {
     return {
         _isModal: window.innerWidth <= SMALL_WIDTH_THRESHOLD,
         _isOpen: isOpen,
-        _isPollsEnabled: !disablePolls,
+        // _isPollsEnabled: !disablePolls,
+        _isPollsEnabled: false,
         _isPollsTabFocused: isPollsTabFocused,
         _messages: messages,
         _nbUnreadMessages: nbUnreadMessages,
